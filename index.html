@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café de PARIS</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbs5pJwnpDREiLlZ7JpO1paJi7kRBik/KJlYVr+2N9b0Up6D5tWEn5/SrOJHQ6VZ" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="background">
+    <img src="images/logo.png" alt="Logo" class="logo">
+    <img src="images/123.png" alt="Center Image" class="center-image">
+
+    <div class="fade-in-vertical">
+      <div class="vertical-text right-top">コーヒーの香り
+      </div>
+      <div class="vertical-text left-bottom">人生の一瞬</div>
+    </div>
+
+  </div>
+
+  <div class="menu-button" id="menu-button">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <div class="menu" id="menu">
+    <ul>
+      <li><a href="#about" onclick="scrollToSection('about')" class="linktext">ABOUT</a></li>
+      <li><a href="#cafeparis" onclick="scrollToSection('cafeparis')" class="linktext">NEWS</a></li>
+      <li><a href="#menu-section" onclick="scrollToSection('menu-section')" class="linktext">MENU</a></li>
+      <li><a href="#map" onclick="scrollToSection('map')" class="linktext">MAP</a></li>
+      <!-- 在此添加更多菜单项 -->
+    </ul>
+  </div>
+
+  <div class="container_home fade-in">
+    <div class="home_image">
+      <img src="images/coffe.hito.jpg" alt="人做咖啡的图片" class="home-img">
+      <div class="about_text1">
+        <h1 id="about">ABOUT <span>Café de PARIS</span></h1>
+      </div>
+
+
+    </div>
+    <div class="home_text">
+      <p>西新宿だから交通の便もよく、お集まり・ ショッピングなどにも最適!<br>
+        お二人だけのランチタイムにいかがですか。</p>
+    </div>
+  </div>
+
+  <div class="container_about fade-in">
+    <div class="about_text">
+      <p>早朝6時からオープン!!<br>
+        ランチタイムは、定番のパスタやカレーなどの日替わりランチがおすすめ!!</p>
+    </div>
+    <div class="about_image fade-in">
+      <img src="images/pizza.jpg" alt="日替わりランチの画像" class="about-img"> <!-- 替换为您的图片路径 -->
+    </div>
+  </div>
+
+
+  <div class="container_introduction fade-in">
+    <div class="introduction_text">
+      <p>当店は飲食店を運営しており、</p>
+      <p>朝は6:00から夜は22:00まで営業を行っております。</p>
+      <p>朝食から 定番の日替わりランチまでお気軽に来店して頂けるのが特徴です。</p>
+      <p>立地条件も西新宿となり交通の便も良く ショッピングの際に立ち寄って頂けます。</p>
+    </div>
+
+    <div class="introduction_image fade-in">
+      <img src="images/coffe.png" alt="" width="300px" height="300px">
+    </div>
+  </div>
+
+  <div class="container-middle fade-in">
+    <div class="overlay-text">
+      <h2>Café de PARIS</h2>
+    </div>
+    <img src="images/part2.png" alt="" width="100%">
+  </div>
+
+  <div class="news-container fade-in">
+    <div class="news-content fade-in">
+      <h2 id="cafeparis">Café de PARIS NEWS</h2>
+      <p><small>⚫︎2018年10月11日</small><br>新規サイトオープン企画 Webサイトを見て特製ケーキをもらおう!</p>
+      <p><small>⚫︎2018年10月11日</small><br>新作マカロン登場!!</p>
+      <p><small>⚫︎2018年10月10日</small><br>お待たせ致しました! カフェ・ド・パリWebサイトをオープン致しました。</p>
+    </div>
+    <div class="news-image fade-in">
+      <img src="images/koro.png" alt="黑色和白色">
+    </div>
+  </div>
+
+  <div class="photo-left fade-in">
+    <img src="images/img1.jpg" alt="照片描述">
+  </div>
+
+  <div class="photo-right fade-in">
+    <img src="images/isu.jpg" alt="照片描述">
+  </div>
+
+  <div class="marquee-container fade-in">
+    <div class="marquee-content">
+      Café de PARIS Café de PARIS Café de PARIS Café de PARIS // Café de PARIS Café de PARIS Café de PARIS Café de
+      PARIS
+    </div>
+  </div>
+
+  <div class="photo-right2 fade-in">
+    <img src="images/siro.png" alt="照片描述">
+  </div>
+
+  <div class="menu-content fade-in">
+    <h2 id="menu-section">Café de PARIS MENU</h2>
+    <!-- <h2>Café de PARIS MENU</h2> -->
+  </div>
+
+  <div class="image-wrap">
+    <div class="title-bar">coffee</div>
+
+    <div class="image-row-2 fade-in">
+      <div class="image-container">
+        <img src="images/img10.jpg" alt="Image 1">
+        <div class="price">¥420円<small>（税込）</small></div>
+      </div>
+      <div class="image-container">
+        <img src="images/img11.jpg" alt="Image 2">
+        <div class="price">¥320円<small>（税込）</small></div>
+      </div>
+    </div>
+
+    <div class="image-row-2 fade-in">
+      <div class="image-container">
+        <img src="images/img12.jpg" alt="Image 1">
+        <div class="price">¥380円<small>（税込）</small></div>
+      </div>
+      <div class="image-container">
+        <img src="images/img18.jpg" alt="Image 2">
+        <div class="price">¥600円<small>（税込）</small></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-wrap">
+    <div class="title-bar">staple</div>
+
+    <div class="image-row-2 fade-in">
+      <div class="image-container">
+        <img src="images/img34.jpg" alt="Image 1">
+        <div class="price">¥1100円<small>（税込）</small></div>
+      </div>
+      <div class="image-container">
+        <img src="images/img33.jpg" alt="Image 2">
+        <div class="price">¥1200円<small>（税込）</small></div>
+      </div>
+    </div>
+    <div class="image-row-2 fade-in">
+      <div class="image-container">
+        <img src="images/img44.jpg" alt="Image 1">
+        <div class="price">¥1500円<small>（税込）</small></div>
+      </div>
+      <div class="image-container">
+        <img src="images/img47.jpg" alt="Image 2">
+        <div class="price">¥1500円<small>（税込）</small></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-wrap">
+    <div class="title-bar">dessert</div>
+
+    <div class="image-row-2 fade-in">
+      <div class="image-container">
+        <img src="images/img14.jpg" alt="Image 1">
+        <div class="price">¥320円<small>（税込）</small></div>
+      </div>
+      <div class="image-container">
+        <img src="images/img15.jpg" alt="Image 2">
+        <div class="price">¥330円<small>（税込）</small></div>
+      </div>
+    </div>
+    <div class="image-row-2 fade-in">
+      <div class="image-container">
+        <img src="images/img16.jpg" alt="Image 1">
+        <div class="price">¥460円<small>（税込）</small></div>
+      </div>
+      <div class="image-container">
+        <img src="images/img39.jpg" alt="Image 2">
+        <div class="price">¥560円<small>（税込）</small></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container-middle fade-in" style="margin-top: 100px;">
+    <div class="overlay-text">
+      <h2 id="map">Café de PARIS MAP</h2>
+    </div>
+    <img src="images/img7.png" alt="" width="100%">
+  </div>
+
+  <!-- .unique-container -->
+  <div class="unique-container fade-in">
+    <!-- 左侧盒子 -->
+    <div class="unique-left-box">
+      <div class="table_text">
+        <table>
+          <tr>
+            <td>OPEN</td>
+            <td>月～金</td>
+            <td>11:00～21:00 (L.o.20:00)</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>土</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>CLOSE</td>
+            <td>日 · 祝</td>
+            <td>11:00～21:00 (L.o.18:00)</td>
+          </tr>
+        </table>
+
+        <hr>
+
+        <table>
+          <tr>
+            <td>ADDRESS</td>
+            <td>105-6203 東京都新宿区西新宿1-1-3<br>新宿ミロード 2F</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>TEL</td>
+            <td>03-5422-1131</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>MAIL</td>
+            <td>cafedepari.info@gmail.com</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- 右侧盒子 -->
+    <div class="unique-right-box">
+      <!-- 图片 -->
+      <img src="images/img9.jpg" alt="Your Image">
+    </div>
+  </div>
+
+  <div class="map fade-in">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810.1020692455294!2d139.69650217227158!3d35.691569400000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d0a69d76099%3A0x7a5627292269c29e!2sCocoon%20Tower!5e0!3m2!1sja!2sjp!4v1701244620684!5m2!1sja!2sjp"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div class="center-box fade-in">
+    <h2>Café de PARIS</h2>
+  </div>
+
+  <footer>
+    <!-- 社交媒体图标 -->
+    <div class="social-icons" style="margin-bottom: 20px;">
+      <img src="images/15icon.png" alt="Social Icon 1">
+      <img src="images/16icon.png" alt="Social Icon 2">
+      <img src="images/17icon.png" alt="Social Icon 3">
+      <!-- 替换图标的 URL 和 alt 文本 -->
+    </div>
+
+    <!-- 版权信息 -->
+    <p><small>©2023 Cafe de paris. ALL RIGHTS RESERVED.</small></p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
